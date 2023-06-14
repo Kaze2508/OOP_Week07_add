@@ -5,13 +5,13 @@
 
 int main(int argc, char* argv[]) 
 {
-    NhanVienSanXuat nvsx("Nguyen Van A", "01/01/1990", 3000000, 100);
-    nvsx.tinhLuong();
-    nvsx.inThongTin();
+    ManuStaff manuStaff("Nguyen Van A", "01/01/1990", 3000000, 100);
+    manuStaff.countSalary();
+    manuStaff.printInfo();
 
-    NhanVienVanPhong nvvp("Tran Thi B", "02/02/1995", 22);
-    nvvp.tinhLuong();
-    nvvp.inThongTin();
+    OfficeStaff officeStaff("Tran Thi B", "02/02/1995", 22);
+    officeStaff.countSalary();
+    officeStaff.printInfo();
 
     return 0;
 }
